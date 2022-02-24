@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973047199002",
+    "firebase_url": "https://test-f7282-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-f7282",
+    "storage_bucket": "test-f7282.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973047199002:android:8e1d2d0fb76df20a7428a3",
+        "android_client_info": {
+          "package_name": "com.example.junglewildlifemagazine_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973047199002-ppqgvecqd6a23o0rs7absm4arufmac09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmQxXVGBe7Z13Xq2JAvZFGmqXQKoWGxyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973047199002-ppqgvecqd6a23o0rs7absm4arufmac09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
