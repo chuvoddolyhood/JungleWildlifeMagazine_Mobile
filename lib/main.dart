@@ -1,11 +1,8 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:junglewildlifemagazine_mobile/pages/home.dart';
 
-void main(List<String> args) async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+import 'package:junglewildlifemagazine_mobile/pages/landing_page.dart';
+
+void main(List<String> args) {
   runApp(MyApp());
 }
 
@@ -17,7 +14,8 @@ class MyApp extends StatelessWidget {
     //Hide status bar
     // SystemChrome.setEnabledSystemUIOverlays([]);
     return MaterialApp(
-      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      home: LandingPage(),
     );
   }
 }
