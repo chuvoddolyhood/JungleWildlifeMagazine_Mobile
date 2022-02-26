@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:junglewildlifemagazine_mobile/tab/home_tab.dart';
 import 'package:junglewildlifemagazine_mobile/tab/infor_tab.dart';
 import 'package:junglewildlifemagazine_mobile/tab/search_tab.dart';
 import 'package:junglewildlifemagazine_mobile/widgets/bottom_nav_widget.dart';
+
+import '../tab/home_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
