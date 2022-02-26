@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:junglewildlifemagazine_mobile/tab/home_tab.dart';
+import 'package:junglewildlifemagazine_mobile/tab/infor_tab.dart';
+import 'package:junglewildlifemagazine_mobile/tab/search_tab.dart';
 import 'package:junglewildlifemagazine_mobile/widgets/bottom_nav_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -42,17 +45,17 @@ class _HomePageState extends State<HomePage> {
               Container(
                 // color: Colors.red,
                 child: Center(
-                  child: Text('Home Page'),
+                  child: HomeTab(),
                 ),
               ),
               Container(
                 child: Center(
-                  child: Text('Search Page'),
+                  child: SearchTab(),
                 ),
               ),
               Container(
                 child: Center(
-                  child: Text('Infor Page'),
+                  child: InforTab(),
                 ),
               )
             ],
