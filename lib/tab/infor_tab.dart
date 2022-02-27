@@ -7,7 +7,11 @@ class InforTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
-      ActionBar_Widget(hasBack: false, titleTab: 'About us'),
+      ActionBar_Widget(
+        hasBack: false,
+        titleTab: 'About us',
+        hasBackground: true,
+      ),
       Center(child: Text('Infor Tab')),
     ]);
   }
